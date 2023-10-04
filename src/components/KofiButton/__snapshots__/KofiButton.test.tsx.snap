@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KofiButton renders properly 1`] = `
+<div>
+  <div
+    class="KofiBtnContainer"
+  >
+    <a
+      class="KofiButton"
+      href="https://ko-fi.com/t2pellet"
+      rel="noreferrer"
+      style="background-color: rgb(41, 171, 224);"
+      target="_blank"
+      title="Support me on ko-fi.com"
+    >
+      <img
+        alt="Ko-fi donations"
+        class="KofiImg"
+        src="https://storage.ko-fi.com/cdn/cup-border.png"
+      />
+      <span
+        class="KofiText"
+      >
+        Support me
+      </span>
+    </a>
+  </div>
+</div>
+`;

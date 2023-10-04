@@ -1,6 +1,6 @@
 import React from 'react'
 import { Meta, StoryObj } from '@storybook/react'
-import KofiButton from '../lib/KofiButton'
+import KofiButton from '../components/KofiButton/KofiButton'
 
 const meta: Meta<typeof KofiButton> = {
     component: KofiButton,
