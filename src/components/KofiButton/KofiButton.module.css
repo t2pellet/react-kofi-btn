@@ -6,9 +6,10 @@
     .KofiButton {
         display: flex;
         flex-direction: row;
-        gap: 0.25rem;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        gap: 0.25rem;
         text-decoration: none;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -19,9 +20,10 @@
         .KofiText {
             color: #fff;
             text-align: center;
-            line-height:33px;
-            font-weight:700;
-            font-size:14px;
+            font-weight: 700;
+            line-height: 14px;
+            height: 14px;
+            font-size: 14px;
             letter-spacing: -0.15px;
             font-family:'Quicksand',Helvetica,Century Gothic,sans-serif !important;
             text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
@@ -33,11 +35,6 @@
             border:none;
             content:url('https://storage.ko-fi.com/cdn/cup-border.png');
             animation: kofi-wiggle 3s infinite;
-        }
-        .KofiImg:after{
-            height:25px;
-            border:none;
-            content:url('https://storage.ko-fi.com/cdn/whitelogo.svg')
         }
     }
 

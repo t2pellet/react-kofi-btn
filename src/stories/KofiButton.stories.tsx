@@ -8,6 +8,8 @@ const meta: Meta<typeof KofiButton> = {
         label: 'Support me',
         user: 't2pellet',
         color: '#29abe0',
+        width: 150,
+        height: 33,
     },
     argTypes: {
         color: {

@@ -2,12 +2,16 @@ import React, { useEffect } from 'react'
 import WebFont from 'webfontloader'
 import styles from './KofiButton.module.css'
 type KofiButtonProps = {
+    width?: number
+    height?: number
     color?: string
     label: string
     user: string
 }
 
 const KofiButton: React.FC<KofiButtonProps> = ({
+    width = 150,
+    height = 33,
     color = '#29abe0',
     label,
     user,
@@ -21,7 +25,7 @@ const KofiButton: React.FC<KofiButtonProps> = ({
     }, [])
 
     return (
-        <div className={styles.KofiBtnContainer}>
+        <div className={styles.KofiBtnContainer} style={{ width, height }}>
             <a
                 title='Support me on ko-fi.com'
                 className={styles.KofiButton}
