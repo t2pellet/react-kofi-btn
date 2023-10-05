@@ -5,6 +5,18 @@
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "license": "AGPL-3.0-only",
+  "homepage": "https://t2pellet.github.io/react-kofi-btn/",
+  "author": {
+    "email": "t2pellet@uwaterloo.ca",
+    "name": "Tenzin Pelletier",
+    "url": "https://tenzin.live"
+  },
+  "bugs": {
+    "url": "https://github.com/t2pellet/react-kofi-btn/issues"
+  },
+  "repository": {
+    "url": "https://github.com/t2pellet/react-kofi-btn"
+  },
   "engines": {
     "node": "18"
   },
