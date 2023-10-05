@@ -8,13 +8,16 @@ const meta: Meta<typeof KofiButton> = {
         label: 'Support me',
         user: 't2pellet',
         color: '#29abe0',
-        width: 150,
-        height: 33,
-        border: 7,
+        size: 'sm',
     },
     argTypes: {
         color: {
             control: { type: 'color' },
+        },
+        onClick: {
+            table: {
+                disable: true,
+            },
         },
     },
 }
@@ -23,5 +26,5 @@ export default meta
 type Story = StoryObj<typeof KofiButton>
 
 export const Primary: Story = {
-    render: (args) => <KofiButton {...args} />,
+    render: (args) => <KofiButton {...args} onClick={undefined} />,
 }

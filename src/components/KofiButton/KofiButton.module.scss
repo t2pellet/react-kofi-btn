@@ -2,6 +2,7 @@
     display:inline-block;
     white-space:nowrap;
     min-width: 150px;
+    cursor: pointer;
 
     .KofiButton {
         display: flex;
@@ -9,7 +10,6 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        gap: 0.25rem;
         text-decoration: none;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -24,17 +24,12 @@
             color: #fff;
             text-align: center;
             font-weight: 700;
-            line-height: 14px;
-            height: 14px;
-            font-size: 14px;
             letter-spacing: -0.15px;
             font-family:'Quicksand',Helvetica,Century Gothic,sans-serif !important;
             text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
         }
 
         .KofiImg {
-            height: 13px;
-            width:20px;
             border:none;
             content:url('https://storage.ko-fi.com/cdn/cup-border.png');
             animation: kofi-wiggle 3s infinite;

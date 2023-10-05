@@ -1,0 +1,51 @@
+.KofiWidgetContainer {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+
+  .KofiModal {
+    overflow: hidden;
+    width: fit-content;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+    iframe {
+      border: none;
+      width: calc(100% - 8px);
+      padding: 4px;
+      background: #ffffff;
+      transition: 0.5s linear;
+      border-radius: 12px;
+      height: 625px;
+
+      &.show {
+        opacity: 1;
+      }
+
+      &.hide {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(calc(100%));
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+}
