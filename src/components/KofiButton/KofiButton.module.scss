@@ -17,6 +17,10 @@
         box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
         overflow-wrap:break-word;
 
+        &:hover {
+            opacity:.85;
+        }
+
         .KofiText {
             color: #fff;
             text-align: center;
@@ -36,10 +40,6 @@
             content:url('https://storage.ko-fi.com/cdn/cup-border.png');
             animation: kofi-wiggle 3s infinite;
         }
-    }
-
-    .KofiButton:hover {
-        opacity:.85;
     }
 }
 

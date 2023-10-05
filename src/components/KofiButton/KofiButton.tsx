@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import WebFont from 'webfontloader'
-import styles from './KofiButton.module.css'
+import styles from './KofiButton.module.scss'
 type KofiButtonProps = {
     width?: number
     height?: number
