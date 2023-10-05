@@ -10,6 +10,7 @@ const meta: Meta<typeof KofiButton> = {
         color: '#29abe0',
         width: 150,
         height: 33,
+        border: 7,
     },
     argTypes: {
         color: {

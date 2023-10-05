@@ -5,6 +5,7 @@ type KofiButtonProps = {
     width?: number
     height?: number
     color?: string
+    border?: number
     label: string
     user: string
 }
@@ -12,6 +13,7 @@ type KofiButtonProps = {
 const KofiButton: React.FC<KofiButtonProps> = ({
     width = 150,
     height = 33,
+    border = 7,
     color = '#29abe0',
     label,
     user,
@@ -29,7 +31,7 @@ const KofiButton: React.FC<KofiButtonProps> = ({
             <a
                 title='Support me on ko-fi.com'
                 className={styles.KofiButton}
-                style={{ backgroundColor: color }}
+                style={{ backgroundColor: color, borderRadius: border }}
                 href={`https://ko-fi.com/${user}`}
                 target='_blank'
                 rel='noreferrer'
